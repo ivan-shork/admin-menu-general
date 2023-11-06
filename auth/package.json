@@ -1,0 +1,30 @@
+{
+  "name": "@xysfe/admin-menu-auth",
+  "version": "1.0.0",
+  "description": "管理后台菜单组件-权限集部分",
+  "scripts": {
+    "build": "vite build"
+  },
+  "keywords": [
+    "@xysfe/admin-menu", "auth-get"
+  ],
+  "main": "./dist/index.umd.js",
+  "module": "./dist/index.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.cjs.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "axios": ">=0.15"
+  },
+  "dependencies": {
+    "qs": "^6.11.2"
+  }
+}

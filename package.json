@@ -1,0 +1,17 @@
+{
+  "name": "admin-menu-general",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:auth": "pnpm --filter @xysfe/admin-menu-auth run build",
+    "build:components": "pnpm --filter @xysfe/admin-menu-components run build",
+    "build": "pnpm run build:auth && pnpm run build:components"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^4.5.0"
+  }
+}
