@@ -1,0 +1,15 @@
+{
+  "name": "playground-v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "2.6.14",
+    "@xysfe/admin-menu-components": "workspace:^"
+  }
+}

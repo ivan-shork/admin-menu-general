@@ -2,7 +2,13 @@
   "name": "@xysfe/admin-menu-components",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.umd.js",
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs.js",
+      "import": "./dist/index.es.js"
+    }
+  },
   "scripts": {
     "build": "npm run build:v2 && npm run build:v2.7 && npm run build:v3",
     "build:v2": "vue-demi-switch 2 && vite build --config build/vite.v2.config.js",
