@@ -6,7 +6,11 @@
   "scripts": {
     "build:auth": "pnpm --filter @xysfe/admin-menu-auth run build",
     "build:components": "pnpm --filter @xysfe/admin-menu-components run build",
-    "build": "pnpm run build:auth && pnpm run build:components"
+    "build": "pnpm run build:auth && pnpm run build:components",
+    "switch-version": "pnpm --filter @xysfe/admin-menu-components run switch",
+    "dev:v2": "pnpm run switch-version 2 && pnpm --filter playground-v2 run dev",
+    "dev:v2.7": "pnpm run switch-version 2.7 && pnpm --filter playground-v2.7 run dev",
+    "dev:v3": "pnpm run switch-version 3 && pnpm --filter playground-v3 run dev"
   },
   "keywords": [],
   "author": "",

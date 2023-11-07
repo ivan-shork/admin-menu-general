@@ -2,3 +2,5 @@ packages:
   - "auth"
   - "components"
   - "playground-v2"
+  - "playground-v2.7"
+  - "playground-v3"

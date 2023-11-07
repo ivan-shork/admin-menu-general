@@ -13,7 +13,8 @@
     "build": "npm run build:v2 && npm run build:v2.7 && npm run build:v3",
     "build:v2": "vue-demi-switch 2 && vite build --config build/vite.v2.config.js",
     "build:v2.7": "vue-demi-switch 2.7 && vite build --config build/vite.v2.7.config.js",
-    "build:v3": "vue-demi-switch 3 && vite build --config build/vite.v3.config.js"
+    "build:v3": "vue-demi-switch 3 && vite build --config build/vite.v3.config.js",
+    "switch": "node ./bin/admin-menu-switch.js"
   },
   "keywords": [],
   "author": "",
